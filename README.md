@@ -1,4 +1,4 @@
-# Building xmrig with Embedded Config
+ # Building xmrig with Embedded Config
 
 ```
 apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
@@ -20,3 +20,4 @@ cmake .. -DWITH_EMBEDDED_CONFIG=ON
 ```
 make -j$(nproc)
 ```
+
